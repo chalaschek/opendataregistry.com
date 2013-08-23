@@ -7264,12 +7264,12 @@ body{
 }
 
 .blue-back{
-    background-image: url(/img/stitch.png);
+    background-image: url(../img/stitch.png);
     background-color: #469bad;
 }
 
 .grid-back{
-    background-image: url(/img/grid.png);
+    background-image: url(../img/grid.png);
 }
 
 .gray-back{
@@ -7371,7 +7371,7 @@ footer .copy{
 
 .headline{
     height: 350px;
-    background-image: url(/img/tree_small.png);
+    background-image: url(../img/tree_small.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
