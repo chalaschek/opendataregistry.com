@@ -1,0 +1,296 @@
+
+body{
+    color: #fff;
+    background: #333;
+    padding-top: 40px;
+}
+
+.blue-back{
+    background-image: url(/img/stitch.png);
+    background-color: #469bad;
+}
+
+.grid-back{
+    background-image: url(/img/grid.png);
+}
+
+.gray-back{
+    background-color: #eee;    
+}
+
+.gray{
+    color: #ddd;
+}
+
+.large-padding-top{
+    padding-top: 30px;
+}
+
+.header-row{
+    height: 60px;
+}
+
+.navbar-inverse .brand{
+    color: #fff;
+}
+
+
+.small-header-row{
+    height: 30px;
+}
+
+.content-wrap{
+    color: #333;
+    width: 100%;
+    background-color: #fff;
+    min-height: 300px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-margin{
+    margin: 0 auto;
+}
+
+footer{
+      border-top: none;
+      margin-top: 0;
+}
+
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer img{
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+footer .facebook{
+    padding-left: 10px;
+}
+
+footer .copy{
+    /*padding-left: 10px;*/
+}
+
+
+
+.messages .info div, .messages .error div{
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.messages div.info, .messages div.error{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 5px 10px;
+    border: 1px #2EBBE6 dashed; 
+}
+
+.messages div.info {
+    color: #2EBBE6;
+    background: #F7FBFD;
+}
+
+.messages div.error {
+    background-color: #FAF8CC;
+    color: #ad2f33;
+}
+
+
+
+
+
+.headline{
+    height: 350px;
+    background-image: url(/img/tree_small.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.headline h1{
+    font-size: 55px;
+    line-height: 1.1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    color: #fff;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.headline .lead, .headline .buttons{
+    width: 70%;
+}
+
+.headline .lead{
+    position: relative;
+    font-size: 20px;
+    line-height: 27px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    z-index: 1;
+    color: #fff;
+}
+
+.lead{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.headline .lead a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+.headline .buttons{
+    text-align: center; 
+    padding-top: 10px;
+}
+
+
+.headline .contact-button{
+    margin-right:10px
+}
+
+.headline .signup-button{
+    margin-left:10px
+}
+
+
+.users-wrap{
+    color: #333;
+    width: 100%;
+    padding: 0px 0;
+    min-height: 150px;
+}
+
+.details-wrap{
+    color: #333;
+    width: 100%;
+    padding-top: 15px 0;
+    min-height: 150px;
+}
+
+.customer{
+    width: 31%;
+    float: left;
+    padding: 0 7px;
+}
+
+
+.headline-wrap{
+    min-height: 200px;
+}
+.users{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+.users h6 {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+.details{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    
+}
+.details h6 {
+  color: #999;
+  font-weight: bold;
+  border-bottom: 1px #ddd solid;
+  line-height: 26px;
+  padding-top: 15px;
+  margin-bottom: 10px;  
+}
+
+.details .products em{
+    font-weight: bold;
+    color: #333;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+.details .map{
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    padding: 2px;
+    max-height: 200px;
+}
+
+.details .app{
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+
+.details .app-img img{
+    width: 30px;
+}
+
+.details .app-img, .details .app-details, .details .app-header{
+    float:left;
+}
+
+.details .app-header{
+    padding-left: 7px;
+    font-weight: bold;
+    width: 8%;
+    text-align: center;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+
+.details .app-details{
+    padding-left: 7px;
+    width: 78%;
+    padding-bottom: 5px;
+    padding-top: 6px;
+}
+
+.details .app-details b{
+    padding-right: 5px;
+}
+
+.tree_wrap{
+    height: 100%;
+}
+
+.beta-thanks{
+    text-align: center;
+    padding-top: 30px;
+    color: #333;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+.centered-form{
+    margin:0 auto;
+    width: 380px;
+}

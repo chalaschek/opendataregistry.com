@@ -1,0 +1,87 @@
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1200px) {
+    .headline{
+        height: 400px;
+    }
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 979px) {
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+        margin-left: 0px;
+    }
+
+
+    .headline .lead, .headline .buttons{
+        width: 90%;
+    }
+
+    .lead{
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .headline{
+        height: 370px;
+    }
+    
+    .headline h1{
+        font-size: 45px;
+        line-height: 1;
+        padding-top: 20px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    html, body{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+  .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .headline{
+        background-image: none;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .headline .lead, .headline .buttons{
+        width: 100%;
+    }
+
+    
+    .headline h1{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+
+    .headline .lead{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    
+
+    .details .app-header{
+        width: 10%;
+    }
+
+    
+    .details .app-details{
+        width: 70%;
+    }
+}
