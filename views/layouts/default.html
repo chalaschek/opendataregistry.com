@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+  <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Open Data Registry</title>
+     <meta name="copyright" content="Open Data Registry, Inc. 2011"> 
+    <meta name="author" content="Open Data Regisry, Inc."> 
+    <meta name="description" content="Open Data Registry, Inc."> 
+    <meta name="keywords" content="odr, open data registry, "> 
+    <meta name="email" content="info@opendataregisry.com"> 
+    <meta name="Robots" content="index,follow"> 
+    <meta name="Revisit-after" content="1 days">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">    
+    <link rel="stylesheet" href="/css/layout.css">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
+    
+    <!-- Scripts -->    
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-dropdown.js"></script>
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20061111-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>    
+</head>
+
+<body>
+    <div class="topbar" data-dropdown="dropdown">
+        <div class="fill">
+            <div class="container">
+                <div class="sixteen columns">
+                    <a class="brand" href="/"><span style="font-weight: bold">Open Data <span class="gray">Registry</span></span></a>
+                    
+                    <%if(!isLoggedIn){%>
+                        <p class="pull-right"><a href="/users/login">Login</a></p>
+                    <%}else{%>
+                        <ul class="nav secondary-nav">
+                            <li class="dropdown">
+                                <% var user = getUser; %>
+                                <a href="#" class="dropdown-toggle"><%=user['name']%></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Settings</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/users/logout">Sign out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <%}%>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wrap">
+        <%-body%>
+    </div>
+
+    <div class="container">
+     <footer>
+        <!--<span class="twitter"><a href="https://twitter.com/#!/webofgoods" target="_blank"><img src="/img/twitter_32.png"></img></a></span>
+        <span class="facebook"><a href="https://www.facebook.com/opendataregistry" target="_blank"><img src="/img/facebook_32.png"></img></a></span>        -->
+        <span class="copy">&copy; Open Data Registry</span>
+        <p class="pull-right"></p>
+      </footer>
+     </div>
+</body>
+</html>
