@@ -6,12 +6,20 @@ body{
 }
 
 .blue-back{
+<<<<<<< HEAD
     background-image: url(../img/stitch.png);
+=======
+    background-image: url(/img/stitch.png);
+>>>>>>> 1f36b47311a97214fe4147599498eda1be3aeebe
     background-color: #469bad;
 }
 
 .grid-back{
+<<<<<<< HEAD
     background-image: url(../img/grid.png);
+=======
+    background-image: url(/img/grid.png);
+>>>>>>> 1f36b47311a97214fe4147599498eda1be3aeebe
 }
 
 .gray-back{
@@ -113,7 +121,11 @@ footer .copy{
 
 .headline{
     height: 350px;
+<<<<<<< HEAD
     background-image: url(../img/tree_small.png);
+=======
+    background-image: url(/img/tree_small.png);
+>>>>>>> 1f36b47311a97214fe4147599498eda1be3aeebe
     background-repeat: no-repeat;
     background-position: right bottom;
 }
